@@ -19,11 +19,26 @@
             height: 100%;
             object-fit: cover;
         }
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .download-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <img src="Hamza-Resume.png" alt="Resume">
     This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="HamzaResume.pdf">Download PDF</a>.
+    <a href="HamzaResume.pdf" download class="download-button">Download PDF</a>
 </body>
 </html>
